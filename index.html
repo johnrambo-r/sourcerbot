@@ -892,7 +892,7 @@ function toggleTheme() {
   localStorage.setItem('sb_theme', isLight ? 'light' : 'dark');
 }
 
-// Restore saved theme — default is light
+// Restore saved theme — default is dark
 const savedTheme = localStorage.getItem('sb_theme');
 if (savedTheme === 'light') {
   document.body.classList.add('light');
